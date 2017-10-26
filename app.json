@@ -1,0 +1,26 @@
+{
+  "id": "94bf6b25-9552-4357-b110-bc1d1e1453f8",
+  "name": "MyProject01",
+  "publisher": "Mindcore_VadimZh",
+  "brief": "",
+  "description": "This app will do something...",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": {
+    "version": "11.0.0.0",
+    "locale": "US"
+  },
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
