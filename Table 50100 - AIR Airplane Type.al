@@ -1,6 +1,6 @@
 table 50100 "AIR Airplane Type"
 {
-
+CaptionML = ENU = 'AIR Airplane Typ';
     fields
     {
         field(1;"ICAO Code";Code[20])
