@@ -47,6 +47,25 @@ page 50100 "AIR Airplane Type List"
                     AIRFunctions.GetAirplaneTypes;
                 end;
             }
+            action(CreateItem)
+            {
+                CaptionML = ENU = 'Create Item';
+                Promoted = true;
+                PromotedIsBig = true;
+                Image = Item;
+                ApplicationArea = all;
+                trigger OnAction();
+                var
+                    ItemL : record Item;
+                begin
+
+                    Iteml.Init;
+                    ItemL."AIR Airplane Type Code" := "ICAO Code";
+                    ItemL.Description := Description;
+                    ItemL.Insert(true);
+                    Page.Run(Page::"Item Card",ItemL);
+                end;
+            }
         }
     }
-}
+} 
